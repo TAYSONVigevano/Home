@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pagina non trovata · Tay Son Vigevano</title>
+  <meta name="theme-color" content="#8b1a1a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..500,0..100,0..1&family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" type="image/png" href="assets/img/logo-tayson.png" />
+</head>
+<body style="min-height:100vh; display:flex; flex-direction:column;">
+
+<header class="nav" role="banner">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__brand" aria-label="Tay Son Vigevano — home">
+      <img src="assets/img/logo-tayson.png" alt="" />
+      <span class="nav__brand-text">Tay Son Vigevano<small>Qwan Ki Do · dal 2004</small></span>
+    </a>
+    <nav aria-label="Menu principale">
+      <ul class="nav__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="disciplina.html">La disciplina</a></li>
+        <li><a href="corsi.html">Corsi</a></li>
+        <li><a href="istruttore.html">Istruttore</a></li>
+        <li><a href="dojo.html">Il dojo</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+      </ul>
+    </nav>
+    <a href="contatti.html#prova" class="btn btn--primary nav__cta">Prova gratuita <span class="btn__arrow">→</span></a>
+    <button class="nav__toggle" data-nav-toggle aria-expanded="false" aria-controls="nav-drawer" aria-label="Apri menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav__drawer" id="nav-drawer" data-nav-drawer data-open="false">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="disciplina.html">La disciplina</a></li>
+      <li><a href="corsi.html">Corsi e orari</a></li>
+      <li><a href="istruttore.html">L'istruttore</a></li>
+      <li><a href="dojo.html">Il dojo</a></li>
+      <li><a href="contatti.html">Contatti e prova gratuita</a></li>
+    </ul>
+  </div>
+</header>
+
+<main style="flex:1; display:flex; align-items:center; padding: var(--s-6) 0;">
+  <div class="container container-narrow text-center">
+    <div style="font-family: var(--ff-display); font-size: clamp(5rem, 18vw, 12rem); font-weight:300; line-height:1; letter-spacing:-0.04em; color: var(--ember); font-variation-settings: 'opsz' 144, 'SOFT' 60; margin-bottom: var(--s-2);">
+      404
+    </div>
+    <span class="eyebrow">Pagina non trovata</span>
+    <h1 style="margin-bottom: var(--s-3);">Questa pagina <em style="color:var(--ember); font-style:italic; font-weight:350;">non esiste.</em></h1>
+    <p class="lead" style="margin: 0 auto var(--s-4);">
+      Potrebbe essere stata spostata, rinominata, o non essere mai esistita.
+      Torna alla home o scegli una delle sezioni qui sotto.
+    </p>
+    <div style="display:flex; gap:var(--s-2); justify-content:center; flex-wrap: wrap;">
+      <a href="index.html" class="btn btn--primary">Torna alla home <span class="btn__arrow">→</span></a>
+      <a href="contatti.html" class="btn btn--ghost">Contatti</a>
+    </div>
+  </div>
+</main>
+
+<footer class="footer" role="contentinfo" style="margin-top:auto;">
+  <div class="container">
+    <div class="footer__bottom" style="border-top:none; padding-top:0;">
+      <span>© <span data-year>2025</span> Tay Son Vigevano — Qwan Ki Do</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
