@@ -1185,11 +1185,26 @@ section.pad-lg { padding: var(--s-8) 0; }
   pointer-events: none;
   z-index: 0;
 }
+
 .illus-corso--top-left {
-  bottom: auto;
-  right: auto;
   top: -10px;
   left: -10px;
+  right: auto;
+  bottom: auto;
+}
+
+.illus-corso--top-right {
+  top: -10px;
+  right: -10px;
+  bottom: auto;
+  left: auto;
+}
+
+.illus-corso--bottom-left {
+  bottom: -10px;
+  left: -10px;
+  top: auto;
+  right: auto;
 }
 .course > *:not(.illus-corso) { position: relative; z-index: 1; }
 
